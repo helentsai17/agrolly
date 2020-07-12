@@ -1,0 +1,109 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  
+    /* nar bar */
+.navigation{
+    color: #000;
+    padding-right: 60px;
+}
+    
+.logo{
+    font-size: 30px;
+    margin-left: 6%;
+      
+}
+    
+.nav-link{
+    font-size: 20px;
+}
+  
+/* get started */
+
+#get-started{
+    background-color: #012A63;
+    color: aliceblue;
+    padding: 3%
+}
+.getstart-text{
+    margin: 10% 20% 10% 0%;
+}
+
+/* get connect with other feature  */
+
+#get-connect{
+    padding: 3%;
+    background-color: #1B1B1B;
+    color: aliceblue;
+}
+.connection-h3{
+    padding-top: 20%;
+    padding-bottom: 40%;
+}
+
+/* weather section */
+#wheatherF{
+    background-color: #012A63;
+    color: aliceblue;
+    padding: 3% 10%;
+  
+}
+
+.wheather-phone{
+   height: 550px;
+   padding-left: 15%;
+}
+
+.weather-image{
+    height: 100px;
+}
+.wheather-text{
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+/* annual forcast */
+
+#annual{
+    background-color: #1B1B1B;
+    color: aliceblue;
+    padding: 3%;
+}
+
+.annual-text{
+   text-align: end;
+   padding-top: 15%;
+   padding-left: 10%;
+}
+
+
+/* suggestion part */
+
+#suggestion{
+    background-color:#012A63 ;
+    color: black;
+    padding: 3%;
+}
+
+.crop-image{
+    padding-left: 5%;
+    text-align: center;
+}
+
+.featurebtn{
+    padding-right: 10%;
+    padding-top: 3%;
+    color: blanchedalmond;
+}
+
+/* structure area */
+#structure{
+    background-color:#1B1B1B ;
+    text-align: center;
+}
+
+.structure-imge{
+    height: 80%;
+    margin: 10%;
+}

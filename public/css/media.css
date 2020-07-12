@@ -1,0 +1,72 @@
+ /* nar bar */
+.navigation{
+    color: #000;
+    padding-right: 60px;
+}
+
+.logo{
+  font-size: 30px;
+  margin-left: 6%;
+  
+}
+
+.nav-link{
+  font-size: 20px;
+}
+
+/* video    */
+
+#video{
+    text-align: center;
+    margin: 4%;
+}
+
+.video-card{
+    margin: 2% auto;
+}
+
+.video-card p{
+    color: gray;
+}
+
+.video-image{
+    height: 200px;
+    width: 300px;
+}
+
+.usercase-card{
+    padding: 1%;
+    margin: 10px auto 10px auto;
+    width: 70%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.userimge-left{
+    width: 100px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.userimge-right{
+    width: 100px;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+.user-text{
+    text-align: start;
+}
+
+.user-info{
+    text-align: end; 
+    font-size: 13px; 
+    color: grey; 
+    padding-right: 20px;
+}
+
+#gallery{
+    padding: 3% 4%;
+}

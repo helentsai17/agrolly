@@ -1,0 +1,214 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr{
+  border-width: 2px;
+  margin: 3%;
+}
+
+  /* nar bar */
+  .navigation{
+      color: #000;
+      padding-right: 60px;
+  }
+  
+  .logo{
+    font-size: 30px;
+    margin-left: 6%;
+    
+  }
+  
+  .nav-link{
+    font-size: 20px;
+  }
+  
+  /* title area */
+  .title{
+    background-image: url('https://images.unsplash.com/photo-1519897831810-a9a01aceccd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: -180px;
+    Width: 100%;
+    height: 550px; 
+  }
+  
+  .titletext{
+    padding: 10% 7%;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px #6e6e6e;
+    font-style: italic;
+  }
+
+  .googlebtn{
+    margin-top: 10%;
+    margin-right: 2%;
+  }
+
+  .cellphoneimg{
+    width: 250px;
+    position: absolute;
+    padding-top: 3%;
+  }
+  
+  .imagediv{
+    padding-left: 12%;
+  }
+
+  /* Mission */
+  #mission{
+    padding: 10% 6% 1% 6%;  
+  }
+
+  /* what we do */
+  #whatWeDo{
+    padding: 6% 2%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  .skill-box{
+    padding: 0% 1%;
+    text-align: center;
+  }
+  .icon{
+    /* color :#2F8129; */
+    color: green;
+    margin: 8%;
+  }
+  .icon-text{
+    color: gray;
+    font-size: 14px;
+  }
+  .icon:hover{
+    color: #8f8f8f
+  }
+  
+  
+  /* projectSection  */
+  #whoWeAre{
+    padding: 6% 2%;
+    background-color:#BAF2B6;
+  }
+  
+  .card-view{
+    text-align: center;
+  }
+  .name-text{
+    font-weight: bold;
+    color:green;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .title-text{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .info-text{
+    font-size: 14px;
+    color: grey;
+  }
+  
+  .projectImage{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+  }
+  .linkicon{
+    color: #0277B5;
+  }
+
+  
+  /* rewardSection */
+  
+  /* .carousel-control-next-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+  
+  .carousel-control-prev-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='Black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
+  
+  .reward-image{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+  } */
+ 
+  #useTech{
+    margin: 8%;
+    text-align: center;
+  }
+
+   /* contact me */
+   #contact-me{
+    text-align: center;
+    background-color:#BAF2B6;
+    color:#fff;
+    padding:2%;
+    line-height:5px;
+  
+  }
+
+  .contactme{
+    padding: 1% 10%;
+  }
+
+  .input-box{
+    margin-bottom: 3%;
+    
+  }
+
+  .soc-icon{
+    width: 30px;
+  }
+  
+  a{
+    color:#fff;
+  }
+
+  /* Media page */
+
+/* .youtube{
+  text-align: center;
+  margin: auto 20px;
+} */
+
+
+/* about page  */
+
+
+#FAQ{
+  text-align: center;
+  padding: 8%;
+  
+}
+
+.questionbtn{
+  width: 100%;
+  padding-top: 10px;
+  text-align: start;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+  padding-left: 30px;
+  background-color:#b1b1b1;
+  margin-top: 10px;
+}
+
+.answer{
+  font-size: 15pt;
+  text-align: start;
+  padding-left: 30px;
+  background-color:#dbdbdb;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 5px;
+}
