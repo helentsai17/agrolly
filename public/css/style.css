@@ -61,10 +61,7 @@ hr{
     padding-left: 12%;
   }
 
-  /* Mission */
-  #mission{
-    padding: 10% 6% 1% 6%;  
-  }
+  
 
   /* what we do */
   #whatWeDo{
@@ -155,7 +152,7 @@ hr{
    #contact-me{
     text-align: center;
     background-color:#BAF2B6;
-    color:#fff;
+    color:green;
     padding:2%;
     line-height:5px;
   
@@ -188,32 +185,47 @@ hr{
 
 /* about page  */
 
-
-#FAQ{
-  text-align: center;
-  padding: 8%;
-  
+/* Mission */
+#mission{
+  padding: 5% 5% 1% 5%;  
 }
 
-.questionbtn{
+#mission h1{
+  color: green;
+}
+
+/* FAQ  */
+#FAQ{
+  text-align: center;
+  padding: 5% 13%;
+}
+
+#FAQ h1{
+  color: green;
+}
+
+.btn-link{
   width: 100%;
-  padding-top: 10px;
   text-align: start;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border: none;
-  padding-left: 30px;
-  background-color:#b1b1b1;
-  margin-top: 10px;
+  direction: none;
+  color: green;
+  font-size: 20px;
 }
 
 .answer{
-  font-size: 15pt;
+  font-size: 12pt;
   text-align: start;
   padding-left: 30px;
-  background-color:#dbdbdb;
+  background-color:white;
   padding: 20px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
   margin-bottom: 5px;
+}
+
+.question-header{
+  padding: 5px;
+  /* border: 1px solid green; */
+  background-color: #BAF2B6;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 5px;
 }

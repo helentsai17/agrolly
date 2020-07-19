@@ -23,7 +23,22 @@ nav ul li {
     padding-left: 20px;
 
   }
-/* get started */
+/* title */
+#title{
+    background: rgba(0, 0, 0, 0.3) ;
+}
+
+figure{
+    width:100%; 
+    height: 300px;
+   overflow:hidden; 
+   margin:0;   
+   background: rgba(0, 0, 0, 0.3) ;
+}
+
+.title-image{
+    width: 100%;
+}
 
 /* #get-started{
     background-color: #012A63;
@@ -133,6 +148,7 @@ nav ul li {
 
 .structure-text{
   padding-top: 5%;
+  padding-right: 8%;
 }
 
 ol li{
@@ -145,7 +161,7 @@ ol li{
 }
 
 .structure-imge:hover{
-    width: 110%;
+    width: 105%;
 }
 
 /* available-time */
