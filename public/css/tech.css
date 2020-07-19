@@ -19,20 +19,24 @@ body{
     font-size: 20px;
 }
   
+nav ul li {
+    padding-left: 20px;
+
+  }
 /* get started */
 
-#get-started{
+/* #get-started{
     background-color: #012A63;
     color: aliceblue;
     padding: 3%
 }
 .getstart-text{
     margin: 10% 20% 10% 0%;
-}
+} */
 
 /* get connect with other feature  */
 
-#get-connect{
+/* #get-connect{
     padding: 3%;
     background-color: #1B1B1B;
     color: aliceblue;
@@ -40,32 +44,37 @@ body{
 .connection-h3{
     padding-top: 20%;
     padding-bottom: 40%;
-}
+} */
 
 /* weather section */
 #wheatherF{
     background-color: #012A63;
     color: aliceblue;
     padding: 3% 10%;
-  
 }
 
 .wheather-phone{
    height: 550px;
    padding-left: 15%;
+   /* text-align: center; */
 }
 
 .weather-image{
     height: 100px;
 }
+
 .wheather-text{
     padding-right: 5%;
     padding-top: 1%;
 }
 
+.wheather-text button{
+    text-align: end;
+}
+
 /* annual forcast */
 
-#annual{
+/* #annual{
     background-color: #1B1B1B;
     color: aliceblue;
     padding: 3%;
@@ -75,35 +84,89 @@ body{
    text-align: end;
    padding-top: 15%;
    padding-left: 10%;
-}
+} */
 
 
 /* suggestion part */
 
 #suggestion{
-    background-color:#012A63 ;
-    color: black;
+    background-color:#1B1B1B ;
     padding: 3%;
 }
 
 .crop-image{
-    padding-left: 5%;
     text-align: center;
 }
 
 .featurebtn{
     padding-right: 10%;
-    padding-top: 3%;
-    color: blanchedalmond;
+    color: white;
 }
+
+.stepbtn{
+    border-bottom: 4px solid white;
+}
+
+.btn-link{
+    color: white;
+}
+
+.step-img{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+
 
 /* structure area */
 #structure{
-    background-color:#1B1B1B ;
-    text-align: center;
+    background-color:#012A63 ;
+    padding: 3%;
+    /* position: relative; */
+}
+
+.structure-imge{ 
+ width: 50%;
+}
+
+.structure-text{
+  padding-top: 5%;
+}
+
+ol li{
+  font-size: 18px;
+  vertical-align: middle;
 }
 
 .structure-imge{
-    height: 80%;
-    margin: 10%;
+    width: 100%;
+}
+
+.structure-imge:hover{
+    width: 110%;
+}
+
+/* available-time */
+
+#availabletime{
+    background-color:#1B1B1B ;
+    padding: 3%;
+}
+
+.ava-btn{
+    padding: 1%;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    margin-right: 10px;
+}
+
+
+.ava-text{
+    color: white;
+    padding-top: 5%;
+    padding-right: 10%;
+    font-size: 18px;
 }

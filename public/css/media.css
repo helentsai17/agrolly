@@ -1,4 +1,8 @@
- /* nar bar */
+body{
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+/* nar bar */
 .navigation{
     color: #000;
     padding-right: 60px;
@@ -12,6 +16,10 @@
 
 .nav-link{
   font-size: 20px;
+}
+nav ul li {
+    padding-left: 20px;
+
 }
 
 /* video    */
