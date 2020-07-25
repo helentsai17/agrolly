@@ -175,14 +175,6 @@ hr{
     color:#fff;
   }
 
-  /* Media page */
-
-/* .youtube{
-  text-align: center;
-  margin: auto 20px;
-} */
-
-
 /* about page  */
 
 /* Mission */
@@ -204,28 +196,23 @@ hr{
   color: green;
 }
 
-.btn-link{
-  width: 100%;
-  text-align: start;
-  direction: none;
+.card-cos{
+  border: none;
+}
+
+.card-cos h5{
   color: green;
-  font-size: 20px;
 }
 
-.answer{
-  font-size: 12pt;
-  text-align: start;
-  padding-left: 30px;
-  background-color:white;
-  padding: 20px;
-  margin-bottom: 5px;
+.card-cos h5:hover{
+  color: black;
 }
 
-.question-header{
-  padding: 5px;
-  /* border: 1px solid green; */
-  background-color: #BAF2B6;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  margin-top: 5px;
+.card-cos a:hover{
+  text-decoration: none !important;
 }
+
+.header-cos{
+  background-color: #BAF2B6 ;
+}
+
