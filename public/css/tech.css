@@ -65,12 +65,12 @@ figure{
 #wheatherF{
     background-color: #012A63;
     color: aliceblue;
-    padding: 3% 10%;
+    padding: 3%;
 }
 
 .wheather-phone{
-   width: 400px;
-   padding-left: 15%;
+   width: 330px;
+   /* padding-left: 15%; */
    /* text-align: center; */
 }
 
@@ -79,7 +79,7 @@ figure{
 }
 
 .wheather-text{
-    padding-right: 5%;
+    padding-right: 10%;
     padding-top: 1%;
 }
 
@@ -111,7 +111,6 @@ figure{
 
 .suggest-phone{
     width: 330px;
-    margin-left: 5%;
 }
 
 .crop-image{
@@ -148,7 +147,7 @@ figure{
 }
 
 .structure-imge{ 
- width: 50%;
+ width: 100%;
 }
 
 .structure-text{
@@ -161,9 +160,6 @@ ol li{
   vertical-align: middle;
 }
 
-.structure-imge{
-    width: 100%;
-}
 
 .structure-imge:hover{
     width: 105%;
