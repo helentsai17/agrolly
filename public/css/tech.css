@@ -69,7 +69,7 @@ figure{
 }
 
 .wheather-phone{
-   height: 550px;
+   width: 400px;
    padding-left: 15%;
    /* text-align: center; */
 }
@@ -107,6 +107,11 @@ figure{
 #suggestion{
     background-color:#1B1B1B ;
     padding: 3%;
+}
+
+.suggest-phone{
+    width: 330px;
+    margin-left: 5%;
 }
 
 .crop-image{
