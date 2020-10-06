@@ -87,3 +87,23 @@ nav ul li :hover{
 #gallery{
     padding: 3% 4%;
 }
+/* 
+.person-image-size{
+    max-width: 60%;
+    max-height: 60%;
+} */
+
+.report{
+    margin: 3% 7%; 
+    padding: 2% 5% 2% 5%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color:#DCDCDC;
+    border-width: 2px;
+}
+
+.title-text{
+    font-family: 'Crimson Text', serif;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
