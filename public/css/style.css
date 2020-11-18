@@ -128,7 +128,18 @@ hr{
     color: #0277B5;
   }
 
+.homeNewsImage{
+  width:100%;
+  /* position:relative; */
+  /* overflow:hidden; */
   
+  height:400px;
+}
+
+#carouselSection{
+  background-color:black;
+} 
+
   /* rewardSection */
   
   /* .carousel-control-next-icon {
@@ -153,6 +164,14 @@ hr{
     text-align: center;
   }
 
+  .partnership{
+    margin: 8%;
+    text-align: center;
+  }
+
+  .parterimage{
+    margin: 10px;
+  }
    /* contact me */
    #contact-me{
     text-align: center;

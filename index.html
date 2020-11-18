@@ -90,19 +90,7 @@
 
     </section>
 
-    <script>
-        window.watsonAssistantChatOptions = {
-            integrationID: "d8f4f9e7-9928-4b23-8c57-0028ebac9840", // The ID of this integration.
-            region: "us-south", // The region your integration is hosted in.
-            serviceInstanceID: "a136fc98-48e1-42f3-a030-084b70e4ffc1", // The ID of your service instance.
-            onLoad: function(instance) { instance.render(); }
-          };
-        setTimeout(function(){
-          const t=document.createElement('script');
-          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
-          document.head.appendChild(t);
-        });
-      </script>
+
 
 
     <!-- what we do -->
@@ -181,7 +169,7 @@
                 <img src="image/us/Manoela Photo.jpg" class="card-img projectImage" alt="Manoela">
                 <div>
                     <p class="name-text">Manoela Morais</p>
-                    <p class="title-text">Project Management <br> & Data Analytics</p>
+                    <p class="title-text">CEO</p>
                     <p class="info-text">BS in Chemical Engineering, MBA in Business. MS in Automation and MS in
                         Financial Risk Management. Certified PMP, SCOR-P, APICS and Six Sigma.
                     </p>
@@ -195,7 +183,7 @@
                 <img src="image/us/Ajinkya Photo.jpeg" class="card-img projectImage" alt="Ajinkya">
                 <div>
                     <p class="name-text"> Ajinkya Datalkar</p>
-                    <p class="title-text">Software developer</h5>
+                    <p class="title-text">CTO</h5>
                     <p class="info-text">Bachelor of Engineering in Electronics & Telecommunication and MS in
                         Computer Science. Specialized in C++, PHP, Javascript, AJAX, MSQL.  
                     </p>
@@ -222,7 +210,7 @@
                 <img src="image/us/Helen.jpeg" class="card-img projectImage" alt="Helen">
                 <div>
                     <p class="name-text">Helen Tsai</p>
-                    <p class="title-text">Full stack developer</h5>
+                    <p class="title-text">Web developer lead</h5>
                     <p class="info-text">Master in computer science, AIOT and Software developer intern in Mitac Taiwan,
                         Specialized in Java, Javascript, C#, MySQL, MongoDB and node.js
                     </p>
@@ -277,6 +265,74 @@
         </div>
     </div>
 
+    <div id="carouselSection">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="/media#news">
+                    <img class="homeNewsImage"
+                        src="image/gallery/newsimage1.png"
+                        class="d-block w-100" alt="...">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>In the news: Agrolly, a one-stop-shop for farmers</h5>
+                        <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="/media#news">
+                    <img class="homeNewsImage" src="image/gallery/newsimage2.png"
+                        class="d-block w-100" alt="...">
+                        </a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Agrolly agrees on a partnership with Campo Real University in Parana, South of Brazil. </h5>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="/media#news">
+                    <img class="homeNewsImage" src="image/gallery/newsimage3.png"
+                        class="d-block w-100" alt="...">
+                        </a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Farming assistant app Agrolly wins IBM's Call for Code contest</h5>
+                        <!-- <p>IBM 2020 Call for Code Top 5 Global Finalists Announced</p> -->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="/media#news">
+                    <img class="homeNewsImage"
+                        src="image/gallery/newsimage4.png"
+                        class="d-block w-100" alt="...">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- partnership -->
+    <section class="partnership">
+        <img class="parterimage" height="110px" src="image/icon/2020_callforcode_logo.png" alt="IBM watson">
+        <img class="parterimage" height="110px" src="image/icon/campo_real_logo.png" alt="IBM watson">
+    </section>
+
 
     <!-- contect us -->
     <div id="contact-me" class="row">
@@ -296,7 +352,8 @@
         </form>
         <div class="col-md-6">
             <div style="margin-bottom: 10px;">
-                <a href="mailto:agrolly.tech@outlook.com?Subject=Contact%20from%20Website"><i class="far fa-envelope fa-2x"></i></a>
+                <a href="mailto:agrolly.tech@outlook.com?Subject=Contact%20from%20Website"><i
+                        class="far fa-envelope fa-2x"></i></a>
                 <a href="https://www.youtube.com/channel/UC3O0AvJgDWX8VzO7SVOwy3Q?view_as=subscriber"><i
                         class="fab fa-youtube-square fa-2x"></i></a>
                 <!-- <i class="fab fa-facebook-square fa-3x"></i> -->
@@ -319,6 +376,19 @@
 
     </div>
 
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "d8f4f9e7-9928-4b23-8c57-0028ebac9840", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "a136fc98-48e1-42f3-a030-084b70e4ffc1", // The ID of your service instance.
+            onLoad: function (instance) { instance.render(); }
+        };
+        setTimeout(function () {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+            document.head.appendChild(t);
+        });
+    </script>
 
 </body>
 
