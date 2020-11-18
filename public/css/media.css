@@ -108,3 +108,14 @@ nav ul li :hover{
     padding-bottom: 1%;
     font-size: 30px;
 }
+
+
+#news{
+    /* text-align: center; */
+    margin: 4%;
+}
+
+.newsImage{
+    width: 100%;
+}
+
