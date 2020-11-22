@@ -140,6 +140,11 @@ hr{
   background-color:black;
 } 
 
+.partnertitle{
+  text-align: center;
+  padding-top: 5%;
+  font-family: 'Nerko One', cursive;
+}
   /* rewardSection */
   
   /* .carousel-control-next-icon {
@@ -165,7 +170,7 @@ hr{
   }
 
   .partnership{
-    margin: 8%;
+    margin: 1% 8% 8% 8%;
     text-align: center;
   }
 
