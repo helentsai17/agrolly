@@ -47,8 +47,9 @@ nav ul li :hover{
 }
 
 .video-image{
-    height: 200px;
-    width: 300px;
+    /* height: 220px;
+    width: 330px; */
+    height: 80%;
 }
 
 .usercase-card{
@@ -109,6 +110,7 @@ nav ul li :hover{
 #news{
     /* text-align: center; */
     margin: 4%;
+   
 }
 
 .newsImage{
